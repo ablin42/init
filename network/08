@@ -1,1 +1,6 @@
 # Trouver chez quel hébergeur est le site de Slash16
+
+# "whois Slash16.org" permet d'obtenir plein d'informations telles que
+# le nameserver, l'addresse... mais ce n'est pas suffisant
+# "nslookup slash16.org" permet d'obtenir les addresses ip du site
+# whois sur une de ces addresse ip nous donne l'hebergeur : Amazon
