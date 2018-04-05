@@ -1,0 +1,15 @@
+# Trouvez grâce au résultat de la commande précédente le nom et l’IP
+# du matériel qui fait le lien entre vous (réseau local) et l’extérieur
+#
+# traceroute slash16.org:
+# traceroute to slash16.org (13.32.210.144), 64 hops max, 52 byte packets
+# 1  10.12.254.254 (10.12.254.254)  0.910 ms  0.652 ms  1.443 ms
+# 2  nat-1 (10.60.1.11)  0.308 ms  0.120 ms  0.097 ms
+# 3  dc3 (62.210.35.1)  1.889 ms  1.924 ms  1.688 ms
+# 4  195.154.1.174 (195.154.1.174)  1.175 ms  1.050 ms  1.102 ms
+# etc...
+#
+# 10.12.254.254 est une addresse locale (commence par 10/192)
+# nat-1 est local de meme, et fait la liaison avec dc3 62.210.35.1
+# donc nat-1 (10.60.1.11) est le materiel faisant la liaison
+# entre le reseau local et l'exterieur

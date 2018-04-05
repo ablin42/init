@@ -1,5 +1,7 @@
 # Trouver l’IP Publique de 42.fr
-echo 163.172.250.11
-echo 163.172.250.12
-echo 163.172.250.13
-# nslookup 42.fr
+#
+echo 10.52.1.76
+echo 10.52.1.11
+echo 10.52.1.12
+#
+# traceroute 42.fr OU ping 42.fr OU host 42.fr

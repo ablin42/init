@@ -1,0 +1,6 @@
+# Identifiez les différents appareils réseaux entre
+# votre poste et le domaine slash16.org
+#
+traceroute slash16.org
+#
+# man traceroute : print the route packets take to network host

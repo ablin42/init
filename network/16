@@ -1,0 +1,6 @@
+# Faites pointer intra.42.fr sur l’adresse suivante 46.19.122.85
+#
+# la commande permettant ceci est
+# echo "46.19.122.85   intra.42.fr" >> /etc/hosts
+#
+# cependant on ne dispose pas des droits d'ecriture (ls -l /etc/hosts)

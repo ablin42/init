@@ -1,0 +1,5 @@
+# Déterminez le type du serveur
+#
+nslookup 10.51.1.253
+#
+# on voit le port 53 ouvert

@@ -1,10 +1,10 @@
 # Récupérez le path complet du fichier dans lequel est écrit
 # l’adresse IP du serveur DNS que vous utilisez
-
-
-# man resolv.conf "The resolver is a set of routines that provide access Internet DNS"
+#
+# # cat /var/run/resolv.conf | grep "nameserver" | awk '{print $2}'
+#
+# man resolv.conf (in the intra video) "The resolver is a set of routines that provide access Internet DNS"
 # /etc/resolv.conf (path obtenu dans le man)
 # ls -l montre que /etc/resolv.conf est un lien symbolique vers /var/run/resolv.conf
 # cat /var/run/resolv.conf | grep "nameserver" | tail -1 | awk '{print $2}'
-# obtient l'adresse ip uniquement
-cat /var/run/resolv.conf | grep "nameserver" | tail -1 | awk '{print $2}'
+# obtient les adresses ip uniquement

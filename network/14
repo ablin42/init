@@ -1,0 +1,8 @@
+# Vérifiez grâce au Reverse DNS le nom du serveur correspondant
+# à l’IP 10.51.1.81
+#
+nslookup 10.51.1.81 | grep ldap | awk '{print $4}'
+#
+# nslookup : query internet name servers interactively
+# grep ldap recupere la ligne qui nous interesse
+# awk enleve le surplus

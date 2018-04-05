@@ -1,0 +1,5 @@
+# Quel est le fichier contenant les entrées locales DNS
+#
+# /etc/hosts contient les entrées locales DNS
+#
+# man host.conf dans la video montre le path etc/host.conf
