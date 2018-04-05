@@ -1,0 +1,4 @@
+# Identifiez l’adresse MAC de la carte Wi-Fi
+ifconfig en0 | grep ether | cut -d " " -f 2
+# may have to change en0
+# grep is for fetching the correct line, cut to remove the extra
