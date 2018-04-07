@@ -1,0 +1,5 @@
+# Trouvez une commande qui donne la liste des règles de pare-feu
+#
+iptables -L
+# man iptables: "administration tool for IPv4/IPv6 packet filtering and NAT"
+# -L : "List all rules in the selected chain"

@@ -1,0 +1,7 @@
+# Trouvez une commande qui permet de tuer
+# le processus de la commande en background
+#
+pkill tail
+#
+# man pkill: "signal processes based on name"
+# kill ne marche pas ici car il lui faut un PID

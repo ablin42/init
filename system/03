@@ -1,0 +1,5 @@
+# Quel est le fichier à modifier pour rendre cela permanent ?
+#
+# Le fichier a modifier est /etc/hostname
+#
+# example : echo "yourname" > /etc/hostname

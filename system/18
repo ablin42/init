@@ -1,0 +1,10 @@
+# Avec la commande précédente, autorisez uniquement les IPs provenant
+# de 10.0.0.0/8 à se connecter sur votre système
+#
+iptables -A INPUT -s 10.0.0.0/8 -j ACCEPT
+#
+# iptables -A (chain) -s (IP) -j (décision)
+# Remplacez chain par la section qui vous intéresse (INPUT ou OUTPUT),
+# IP par l'adresse IP concernee
+# décision par la décision à prendre : ACCEPT pour accepter le paquet, REJECT
+# pour le rejeter ou bien DROP pour l'ignorer complètement.

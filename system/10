@@ -1,0 +1,5 @@
+# Quelle commande permet de lister les tables de partitions des périphériques ?
+#
+fdisk -l
+#
+# man fdisk : "manipulate disk partition table" / -l : "list the partition tab"

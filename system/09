@@ -1,0 +1,6 @@
+# Quelle commande permet de savoir quelles personnes
+# sont connectées sur le système?
+#
+who
+#
+# man who : "show who is logged on"

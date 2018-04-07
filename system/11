@@ -1,0 +1,5 @@
+# Quelle commande permet d’afficher l’espace disponible par le système ?
+#
+df
+#
+# man df (in vid) : "report file system disk space usage"

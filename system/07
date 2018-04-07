@@ -1,0 +1,5 @@
+# Déterminez le PID du service SSHD
+#
+pidof sshd
+#
+# man pidof : "find the process ID of a running program"

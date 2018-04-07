@@ -1,0 +1,5 @@
+# Avec la commande précédente, interdisez le reste
+#
+iptables -A INPUT -j DROP
+#
+# toutes les entrees (INPUT) seront ignorees (DROP)

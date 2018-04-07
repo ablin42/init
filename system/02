@@ -1,0 +1,5 @@
+# Quelle commande permet de renommer votre système ?
+#
+hostname yourname
+#
+# man hostname : "show or set the system's host name"
