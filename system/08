@@ -2,4 +2,4 @@
 #
 # ~/.ssh/authorized_keys
 #
-# man sshd - AUTHORIZED_KEYS FILE FORMAT
+# man sshd: - AUTHORIZED_KEYS FILE FORMAT
