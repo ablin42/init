@@ -1,3 +1,3 @@
-# Dans quel fichier se trouve la version installée de votre Debian ?
+# In what file can you find the installed version of your Debian?
 #
-# Ma version de Debian est installee dans /etc/debian_version
+# My Debian version is installed in /etc/debian_version
