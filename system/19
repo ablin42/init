@@ -1,5 +1,5 @@
-# Avec la commande précédente, interdisez le reste
+# With the previous command, forbid all others
 #
 iptables -A INPUT -j DROP
 #
-# toutes les entrees (INPUT) seront ignorees (DROP)
+# all entries (INPUT) will be ignored (DROP)
