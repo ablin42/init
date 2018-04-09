@@ -1,4 +1,4 @@
-# Déterminez la taille exacte de chaque dossier de /var
+# Figure out the exact size of each folder of /var
 #
 du --max-depth=1 /var/
 #
