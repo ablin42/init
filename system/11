@@ -1,4 +1,4 @@
-# Quelle commande permet d’afficher l’espace disponible par le système ?
+# Name the command that displays the available space left on the system?
 #
 df
 #
