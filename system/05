@@ -1,4 +1,4 @@
-# Donnez une commande qui détermine l’état du service SSH
+# Name the command that determines the state of the SSH service
 #
 service ssh status
 #
