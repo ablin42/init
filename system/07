@@ -1,4 +1,4 @@
-# Déterminez le PID du service SSHD
+# Figure out the PID of the SSHD service
 #
 pidof sshd
 #
