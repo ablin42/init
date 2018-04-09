@@ -1,4 +1,4 @@
-# Quel fichier contient les clés RSA autorisées à se connecter via SSH ?
+# What file contains the RSA keys that are authorized to connect via SSH?
 #
 # ~/.ssh/authorized_keys
 #
