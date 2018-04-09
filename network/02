@@ -1,7 +1,7 @@
-# Identifiez l’adresse IP de l’interface Ethernet
+# Identify the IP address of the Ethernet interface
 #
 ifconfig en0 | grep "inet " | awk '{print $2}'
 #
-# en0 recupere l'interface ethernet qui nous interesse
-# grep recupere la ligne avec l'IP
-# awk recupere juste l'ip
+# en0 fetch the ethernet interface we are looking for
+# grep fetch the line with the IP
+# awk fetch the IP without any extras
