@@ -1,5 +1,5 @@
-# Quel est le fichier contenant les entrées locales DNS
+# What file contains the local DNS entries?
 #
-# /etc/hosts contient les entrées locales DNS
+# /etc/hosts contains the local DNS entries
 #
-# man host.conf dans la video montre le path etc/host.conf
+# man host.conf in the intra videos shows the path: etc/host.conf
