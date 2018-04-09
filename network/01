@@ -1,4 +1,4 @@
-# Récupérez la liste des interfaces réseau de la machine sans afficher aucun
-# détail pour ces interfaces. Vraiment juste la liste des noms.
+# Get the list of the network interfaces of the machine
+# Without displaying any detail for these interfaces. Only the list of names.
 #
 ifconfig -l
