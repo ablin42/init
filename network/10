@@ -1,5 +1,4 @@
-# Identifiez les différents appareils réseaux entre
-# votre poste et le domaine slash16.org
+# Identify the network devices between your computer and the slash16.org domain
 #
 traceroute slash16.org
 #
