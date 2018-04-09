@@ -1,5 +1,5 @@
-# Quel est le fichier à modifier pour rendre cela permanent ?
+# What file has to be modified to make it permanent?
 #
-# Le fichier a modifier est /etc/hostname
+# The file to modify is /etc/hostname
 #
 # example : echo "yourname" > /etc/hostname
