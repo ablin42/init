@@ -1,4 +1,4 @@
-# Quelle commande donne le temps depuis laquelle votre système est allumé ?
+# What command gives you the time since your system was last booted?
 #
 uptime
 #
