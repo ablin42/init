@@ -1,7 +1,7 @@
-#  Identifiez la gateway par défaut dans la table de routage
+#  Identifiy the default gateway in the routing table
 #
 netstat -rn | grep "default" | head -1 | awk '{print $2}'
 #
-# netstat -rn montre la table de routage
-# head -1 recupere la premiere ligne
-# awk recupere la gateway par defaut
+# netstat -rn shows the routing table
+# head -1 fetch the first line
+# awk fetch the default gateway without any extras
