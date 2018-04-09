@@ -1,6 +1,7 @@
-# Trouvez un service qui permet de lancer des tâches à horaires régulières
+# Find the service which makes it possible to run 
+# specific tasks following a regular schedule
 #
 # cron
 #
 # man cron: "daemon to execute scheduled commands"
-# watch peut aussi etre utilise: "execute a program periodically"
+# watch can also be used: "execute a program periodically"
