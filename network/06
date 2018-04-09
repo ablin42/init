@@ -4,7 +4,7 @@
 # # cat /var/run/resolv.conf | grep "nameserver" | awk '{print $2}'
 #
 # man resolv.conf (in the intra video) "The resolver is a set of routines that provide access Internet DNS"
-# /etc/resolv.conf (path obtenu dans le man)
+# /etc/resolv.conf (path obtained in the man)
 # ls -l shows that /etc/resolv.conf is a symbolic link to /var/run/resolv.conf
 # cat /var/run/resolv.conf | grep "nameserver" | tail -1 | awk '{print $2}'
 # grep fetch the correct lines
