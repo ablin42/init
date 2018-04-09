@@ -1,4 +1,4 @@
-# Quelle commande permet de lister les tables de partitions des périphériques ?
+# Name the command that lists the partition tables of external devices?
 #
 fdisk -l
 #
