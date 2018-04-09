@@ -1,4 +1,4 @@
-# Trouvez une commande qui permet de trouver les processus en cours d’exécution
+# Name the command that find currently running processes
 #
 ps
 #
