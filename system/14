@@ -1,5 +1,5 @@
-# Lancez en background la commande tail -f /var/log/syslog
+# Run the ‘tail -f /var/log/syslog‘ command in background
 #
 tail -f /var/log/syslog &
 #
-# & permet de lancer la commande en background
+# & allows us to run a task in background
