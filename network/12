@@ -1,6 +1,6 @@
-# Vérifiez que le serveur avec l’adresse IP 10.51.1.253
-# est touchable depuis votre poste
+# Check that the server with the 10.51.1.253
+# IP address is reachable from your computer.
 #
 ping 10.51.1.253 -c 4
 #
-#-c 4 pour n'envoyer que 4 paquets
+# -c 4 to send only 4 packets
