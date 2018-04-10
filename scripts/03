@@ -1,0 +1,9 @@
+# Write a script which displays the list of files from the folder
+# given as parameter, sorted by size.
+#
+ls -Sp $1/ | grep -v "/"
+#
+# ls -p "write a slash after each filename if that file is a directory
+# ls -S "sort files by size"
+# $1 is the first parameter given
+# grep -v "selected lines are those not matching the pattern"

@@ -1,0 +1,11 @@
+# Write a script which monitors the modifications made to the
+# /etc/crontab file and sends an e-mail to root if the file is modified.
+# Create a scheduled task to run this script everyday at midnight
+#
+0 0 * * * [command]
+crontab -e
+crontab MAILTO 
+mails by default
+#
+#
+#
