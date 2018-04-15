@@ -2,10 +2,17 @@
 # /etc/crontab file and sends an e-mail to root if the file is modified.
 # Create a scheduled task to run this script everyday at midnight
 #
-0 0 * * * [command]
-crontab -e
-crontab MAILTO 
-mails by default
+# insert in crontab -e
+# 0 0 * * * /path/to/script
+SUM='md5sum /etc/crontab | cut -d " " -f 1'
+NEWSUM='cat /root/cronhash'
+
+if [ "$SUM" != "$NEWSUM" ]
+then
+	md5sum /etc/crontab | cut -d " " -f 1 > /root/cronhash
+	mail -s "The crontab file was modified" root@localhost.com < /etc/crontab
+fi
 #
-#
-#
+# crontab -e lets us edit the scheduled task running with cron
+# 0 0 * * * means the script will run everyday at midnight
+# in order: minute | hour | day of month | month | day of week

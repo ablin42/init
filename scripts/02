@@ -3,8 +3,14 @@
 # /var/log/update_script.log.
 # Create a scheduled task for this script, once per week at 4 AM.
 #
-
+# insert in crontab -e
+# 0 4 * * 1 /path/to/script/
+apt-get  update >> /var/log/update_script.log
+apt-get upgrade >> /var/log/update_script.log
 #
-#
-#
-#
+# man apt-get : "apt-get is the command line tool for handling package"
+# update synchronize the package index file from their sources
+# upgrade install the newest packages
+# crontab -e lets us edit the scheduled task running with cron
+# 0 4 * * 1 means the script will run only once per week at 4 AM
+# in order: minute | hour | day of month | month | day of week
