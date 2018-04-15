@@ -10,7 +10,7 @@ NEWSUM='cat /root/cronhash'
 if [ "$SUM" != "$NEWSUM" ]
 then
 	md5sum /etc/crontab | cut -d " " -f 1 > /root/cronhash
-	mail -s "The crontab file was modified" root@localhost.com < /etc/crontab
+	mail -s "The crontab file was modified" root < /etc/crontab
 fi
 #
 # crontab -e lets us edit the scheduled task running with cron
