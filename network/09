@@ -1,7 +1,8 @@
 # Find the external IP of 42.fr
 #
-echo 10.52.1.12
-echo 10.52.1.76
-echo 10.52.1.11
+echo 163.172.250.12
+echo 163.172.250.13
+echo 163.172.250.11
 #
-# traceroute 42.fr OR host 42.fr OR EVEN ping 42.fr
+# dig +short 42.fr @resolver1.opendns.com will get external IP of 42
+# nslookup 42.fr 8.8.8.8
