@@ -2,4 +2,6 @@
 #
 # ~/.ssh/authorized_keys
 #
+# NOTE: The file path can differ depending if you're root or not
+# NOTE2: The file needs to be created the first time
 # man sshd: - AUTHORIZED_KEYS FILE FORMAT

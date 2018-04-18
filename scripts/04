@@ -4,9 +4,9 @@
 # Create a scheduled task to run this script everyday at midnight
 #
 # insert in crontab -e
-# 0 0 * * * /path/to/script
-SUM='md5sum /etc/crontab | cut -d " " -f 1'
-NEWSUM='cat /root/cronhash'
+# 0 0 * * * /bin/bash /path/to/script
+SUM=`md5sum /etc/crontab | cut -d " " -f 1`
+NEWSUM=`cat /root/cronhash`
 
 if [ "$SUM" != "$NEWSUM" ]
 then
@@ -14,6 +14,10 @@ then
 	mail -s "The crontab file was modified" root < /etc/crontab
 fi
 #
-# crontab -e lets us edit the scheduled task running with cron
 # 0 0 * * * means the script will run everyday at midnight
 # in order: minute | hour | day of month | month | day of week
+# md5sum creates a unique hash that differs if the file is modified
+# we compare the hash and the last hash qwe had (stored in /root/cronhash)
+# if they differ, we set the new hash into /root/cronhash
+# then we send a mail (-s is the subject) to root
+# crontab -e lets us edit the scheduled task running with cron
