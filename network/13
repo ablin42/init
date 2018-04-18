@@ -2,4 +2,6 @@
 #
 nslookup 10.51.1.253
 #
-# We see the port #53 is open
+# We see the name of the server is "dhcp.42.fr"
+# We can assume the server is of DHCP type
+# DHCP: "Dynamic Host Configuration Protocol"
